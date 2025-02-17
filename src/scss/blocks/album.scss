@@ -1,0 +1,23 @@
+.album {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.album__item:not(:last-child) {
+    margin-bottom: 21px;
+
+    @media(min-width: $tablet) {
+        margin-bottom: 28px;
+    }
+}
+
+.album__link {
+    display: block;
+
+}
+
+.album__image {
+    display: block;
+    width: 100%;
+}

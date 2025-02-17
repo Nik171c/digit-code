@@ -1,0 +1,23 @@
+.hashes {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+.hashes__item {}
+
+.hashes__link {
+    font-family: $gilroy-s;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    display: inline-block;
+    background: $white;
+    color: $dark-color;
+    text-decoration: none;
+    padding: 16px 31px;
+    border-radius: 50px;
+}

@@ -1,0 +1,53 @@
+.welcome-about {
+  background-color: $dark-color;
+  color: $white;
+  padding: 39px 31px 40px;
+}
+
+.welcome-about__title {
+  padding: 0;
+  margin: 0 0 31px;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: right;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.welcome-about__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 19px;
+}
+
+.welcome-about__item {}
+
+
+.welcome-about__link {
+  background-color: $dark-color;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+
+  &--fb {
+    background-image: url("../images/fb-icon.svg");
+  }
+
+  &--tw {
+    background-image: url("../images/tw-icon.svg");
+  }
+
+  &--in {
+    background-image: url("../images/in-icon.svg");
+  }
+
+  &--dr {
+    background-image: url("../images/dr-icon.svg");
+  }
+
+}

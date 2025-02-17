@@ -1,0 +1,137 @@
+.what {
+  padding-top: 499px;
+  position: relative;
+  padding-bottom: 20px;
+  border-bottom: 2px solid $dark-color;
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 478px;
+    background: url("../images/what-mob.jpg") no-repeat 0 0;
+    background-size: cover;
+
+  }
+
+  @media (min-width: $tablet) {
+    padding-top: 1032px;
+    padding-bottom: 38px;
+
+    &::before {
+      height: 992px;
+    }
+  }
+}
+
+.what__title {
+  padding: 0;
+  margin: 0 0 37px 0;
+  font-size: 80px;
+  font-weight: normal;
+  line-height: 92px;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet) {
+    font-size: 150px;
+    line-height: 173px;
+
+  }
+}
+
+.what__list {
+  padding: 0;
+  margin: 0 21px;
+  list-style: none;
+
+  @media (min-width: $tablet) {
+    margin: 0 30px;
+  }
+}
+
+.what__item {
+
+  &:not(:last-child) {
+    padding-bottom: 28px;
+    border-bottom: 2px solid $dark-color;
+    margin-bottom: 29px;
+
+    @media (min-width: $tablet) {
+      padding-bottom: 37px;
+      margin-bottom: 37px;
+    }
+
+  }
+
+  & .what__caption::before {
+    content: "";
+    font-family: $gilroy-l;
+    font-size: 35px;
+    line-height: 41px;
+
+    @media (min-width: $tablet) {
+      font-size: 44px;
+      line-height: 48px;
+    }
+  }
+
+  &:nth-child(1) .what__caption::before {
+    content: "01 ";
+  }
+
+  &:nth-child(2) .what__caption::before {
+    content: "02 ";
+  }
+
+  &:nth-child(3) .what__caption::before {
+    content: "03 ";
+  }
+
+  &:nth-child(4) .what__caption::before {
+    content: "04 ";
+  }
+
+  &:nth-child(5) .what__caption::before {
+    content: "05 ";
+  }
+
+  &:nth-child(6) .what__caption::before {
+    content: "06 ";
+  }
+
+  &:nth-child(7) .what__caption::before {
+    content: "07 ";
+  }
+}
+
+
+.what__caption {
+  padding: 0;
+  margin: 0 0 13px;
+  font-family: $gilroy-s;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: left;
+
+  @media (min-width: $tablet) {
+    font-size: 44px;
+    line-height: 48px;
+    text-align: left;
+  }
+}
+
+.what__text {
+  padding: 0;
+  margin: 0;
+  font-family: $inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+
+}

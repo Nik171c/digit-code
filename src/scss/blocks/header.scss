@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  padding-top: 70px;
+
+  @media (min-width: $tablet) {
+    padding-top: 120px;
+  }
+}
+
+.header__logo {
+  position: absolute;
+  left: 22px;
+  top: 20px;
+
+  @media (min-width: $tablet) {
+    left: 33px;
+    top: 54px;
+  }
+}

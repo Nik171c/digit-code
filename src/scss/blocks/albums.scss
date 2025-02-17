@@ -1,0 +1,76 @@
+.albums {
+    padding: 0;
+    margin: 0 21px;
+    list-style: none;
+
+    @media(min-width: $tablet) {
+        margin: 0 31px;
+    }
+}
+
+.albums__item:not(:last-child) {
+    margin-bottom: 39px;
+
+    @media(min-width: $tablet) {
+        margin-bottom: 69px;
+    }
+}
+
+.albums__list {
+    margin-bottom: 20px;
+
+    @media(min-width: $tablet) {
+        margin-bottom: 25px;
+    }
+}
+
+.albums__title {
+    padding: 0;
+    margin: 0 0 22px;
+    font-family: $gilroy-s;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    @media(min-width: $tablet) {
+        font-size: 40px;
+        line-height: 44px;
+        margin: 0 0 33px;
+    }
+
+}
+
+.albums__hashes {
+    margin-bottom: 30px;
+}
+
+.albums__discover-container {
+    text-align: right;
+}
+
+.albums__discover {
+    font-family: $gilroy-s;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    display: inline-block;
+    background: $dark-color;
+    color: $white;
+    text-decoration: none;
+    padding: 16px 60px 16px 31px;
+    border-radius: 50px;
+    position: relative;
+
+    & svg {
+        position: absolute;
+        right: 27px;
+        top: 10px;
+    }
+
+    &:hover {
+        color: red;
+        background: white;
+    }
+}

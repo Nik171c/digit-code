@@ -1,0 +1,45 @@
+.clients {
+  padding-top: 30px;
+  padding-bottom: 23px;
+
+  @media (min-width: $tablet) {
+    padding-top: 39px;
+    padding-bottom: 38px;
+  }
+}
+
+.clients__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 42px;
+  justify-content: center;
+
+  @media (min-width: $tablet) {
+    margin: 0 auto;
+    gap: 20px 22px;
+    max-width: 891px;
+  }
+}
+
+
+.clients__item {}
+
+.clients__link {
+  display: inline-block;
+  background-color: $white;
+  padding: 15px 38px;
+  border-radius: 31px;
+
+  @media (min-width: $tablet) {
+    padding: 0 38px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.clients__logo {}

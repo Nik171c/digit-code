@@ -1,0 +1,22 @@
+.nav {
+  position: relative;
+}
+
+.nav__toggle {
+  position: absolute;
+  right: 16px;
+  top: -51px;
+  font-family: $gilroy-s;
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  color: $dark-color;
+
+  @media (min-width: $tablet) {
+    right: 27px;
+    top: -62px;
+  }
+
+}
