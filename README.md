@@ -1,51 +1,51 @@
 # digit-code
 
-# Адаптивная верстка сайта
+# Adaptiv nettsideutforming
 
-Этот проект представляет собой адаптивную верстку веб-сайта, созданного с использованием HTML, CSS. Целью проекта является создание интерфейса, который будет корректно отображаться на различных устройствах и экранах, включая мобильные телефоны, планшеты и настольные компьютеры.
+Dette prosjektet er eit eksempel på adaptiv nettsideutforming, laga ved hjelp av HTML og CSS. Målet med prosjektet er å lage eit grensesnitt som blir korrekt vist på ulike einingar og skjermar, inkludert mobiltelefonar, nettbrett og stasjonære datamaskinar.
 
-## Описание
+## Skildring
 
-Адаптивная верстка позволяет сайтам автоматически подстраиваться под размер экрана устройства, на котором они отображаются. В этом проекте использованы современные техники, такие как Flexbox и CSS Grid, а также медиа-запросы для оптимизации отображения контента.
+Adaptiv utforming gjer at nettsider automatisk tilpassar seg skjermstorleiken på eininga dei blir viste på. I dette prosjektet er det brukt moderne teknikkar som Flexbox og CSS Grid, samt media-spørsmål for å optimalisere visninga av innhaldet.
 
-### Основные функции:
+### Hovudfunksjonar:
 
-- **Адаптивный дизайн**: Интерфейс изменяется в зависимости от размера экрана.
-- **Кроссбраузерная совместимость**: Сайт проверен в основных браузерах (Chrome, Firefox, Safari, Edge).
-- **Поддержка мобильных устройств**: Оптимизирован для удобного использования на телефонах и планшетах.
-- **Галерея изображений**: Визуальные элементы адаптируются под разные размеры экрана.
+- **Adaptiv design**: Grensesnittet endrar seg avhengig av skjermstorleiken.
+- **Tverrnettlesarkompatibilitet**: Nettsida er testet i dei mest brukte nettlesarane (Chrome, Firefox, Safari, Edge).
+- **Støtte for mobile einingar**: Optimalisert for enkel bruk på telefonar og nettbrett.
+- **Bildegalleri**: Visuelle element blir tilpassa ulike skjermstorleikar.
 
-### Используемые технологии:
+### Brukte teknologiar:
 
-- **Препроцессор sсss**
-- **Сборка с использованием gulp**
-- **Именование классов с использованием методологии BEM**
-- **Деструктуризация стилей на основании БЕМ**
-- **В сss использованы современные инструменты: flex и grid**
+- **Preprosessor SASS**
+- **Bygging med gulp**
+- **Klassnamngjeving med BEM-metodologi**
+- **Destrukturering av stilar basert på BEM**
+- **CSS med moderne verktøy: Flex og Grid**
 
-## Установка
+## Installering
 
-Чтобы установить проект на своем локальном компьютере, выполните следующие шаги:
+For å installere prosjektet på din lokale datamaskin, følg desse stega:
 
-1. Склонируйте репозиторий:  
+1. Klon repositoryet:  
     bash
 
    ```sh
    git clone https://github.com/Nik171c/digit-code.git
    ```
 
-1. Установите пакеты:
+1. Installer pakker:
 
 ```sh
 npm install
 ```
 
-1. Режим разработки
+1. Utviklingsmodus
 
 ```sh
 npm run dev
 ```
 
-## Ссылка на готовую работу
+## Lenke til ferdig arbeid
 
 [https://nik171c.github.io/digit/](https://nik171c.github.io/digit/)
