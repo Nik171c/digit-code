@@ -1,0 +1,39 @@
+.footer {
+  padding: 22px 20px 23px;
+
+  @media(min-width: $tablet) {
+    padding: 43px 30px 23px;
+    display: flex;
+  }
+
+  @media(min-width: $desktop) {
+    width: 1220px;
+    margin: 0 auto;
+  }
+}
+
+.footer__title {
+  margin: 0 0 22px;
+  font-family: $gilroy-l;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  font-weight: normal;
+
+  @media(min-width: $tablet) {
+    flex-grow: 1;
+    text-align: left;
+    padding-top: 4px;
+  }
+}
+
+.footer__list {
+  @media(min-width: $tablet) {
+    flex-grow: 1;
+    width: auto;
+  }
+}
+
+.footer__item {}
+
+.footer__link {}

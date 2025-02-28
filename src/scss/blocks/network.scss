@@ -1,0 +1,39 @@
+.network {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+  gap: 10px;
+  @media(min-width: $tablet) {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+.network__link {
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 50%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+
+  &--fb {
+    background-image: url("../../images/icons-inversed/fb.svg");
+  }
+
+  &--tw {
+    background-image: url("../../images/icons-inversed/tw.svg");
+  }
+
+  &--in {
+    background-image: url("../../images/icons-inversed/in.svg");
+  }
+
+  &--dr {
+    background-image: url("../../images/icons-inversed/globus.svg");
+  }
+}

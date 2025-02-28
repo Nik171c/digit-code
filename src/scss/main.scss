@@ -2,6 +2,7 @@
 @import "./commons/variables.scss";
 @import "./commons/visually-hidden.scss";
 
+@import "./components/base-button.scss";
 
 @import "./blocks/body.scss";
 @import "./blocks/header.scss";
@@ -18,5 +19,6 @@
 @import "./blocks/reviews.scss";
 @import "./blocks/team.scss";
 @import "./blocks/join.scss";
+@import "./blocks/network.scss";
 @import "./blocks/contact.scss";
-@import "./blocks/kunturi.scss";
+@import "./blocks/footer.scss";

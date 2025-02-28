@@ -2,6 +2,15 @@
   background-color: $dark-color;
   color: $white;
   padding: 39px 31px 40px;
+
+  @media(min-width: $desktop) {
+    width: 318px;
+    padding: 0 31px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .welcome-about__title {
@@ -33,6 +42,7 @@
   height: 50px;
   display: block;
   border-radius: 50%;
+  background-size: contain;
 
   &--fb {
     background-image: url("../images/fb-icon.svg");
@@ -48,6 +58,11 @@
 
   &--dr {
     background-image: url("../images/dr-icon.svg");
+  }
+
+  @media(min-width: $desktop) {
+    width: 30px;
+    height: 30px;
   }
 
 }

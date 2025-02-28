@@ -10,6 +10,9 @@
     @media(min-width: $tablet) {
         margin-bottom: 28px;
     }
+    @media(min-width: $desktop) {
+        margin-bottom: 0;
+    }
 }
 
 .album__link {
@@ -20,4 +23,15 @@
 .album__image {
     display: block;
     width: 100%;
+}
+
+.album__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.album__block--first{
+    @media(min-width: $desktop) {
+        order: 1;
+    }
 }

@@ -1,5 +1,22 @@
+.contact {
+    border-bottom: 1px solid $border;
+    padding: 29px 20px 49px;
+
+    @media(min-width: $tablet) {
+        padding: 29px 30px 49px;
+    }
+
+    @media(min-width: $desktop) {
+        width: 1220px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 70px 0 90px;
+    }
+}
+
 .contact__title {
-    margin: 0;
+    margin: 0 0 29px;
     padding: 0;
     font-family: $gilroy-l;
     font-weight: 300;
@@ -8,27 +25,76 @@
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
+
+    @media(min-width: $tablet) {
+        font-weight: 300;
+        font-size: 150px;
+        line-height: 175px;
+        margin: 0 0 36px;
+    }
+
+    @media(min-width: $desktop) {
+        font-size: 90px;
+        line-height: 100px;
+    }
 }
 
 .contact__story {
-    margin: 0;
+    margin: 0 0 34px;
     padding: 0;
     font-family: $gilroy-s;
     font-size: 50px;
-    line-height: 59px;
-    letter-spacing: 0%;
+    line-height: 61px;
     text-align: center;
     text-transform: uppercase;
+
+    @media(min-width: $tablet) {
+        font-size: 64px;
+        line-height: 78px;
+    }
+
+    @media(min-width: $desktop) {
+        font-size: 31px;
+        text-align: left;
+        line-height: 39px;
+    }
 }
 
 .contact__info {
-    margin: 0;
+    margin: 0 0 34px;
     padding: 0;
     font-family: $gilroy-r;
     font-size: 30px;
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
+
+    @media(min-width: $tablet) {
+        font-size: 34px;
+        line-height: 40px;
+        font-family: $gilroy-s;
+    }
+
+    @media(min-width: $desktop) {
+        font-size: 26px;
+        line-height: 33px;
+        text-align: left;
+    }
 }
 
-.contact__touch {}
+.contact__touch {
+    text-align: center;
+
+    @media(min-width: $desktop) {
+        text-align: left;
+    }
+}
+
+.contact__link {
+    width: 100%;
+
+    @media(min-width: $tablet) {
+        width: auto;
+
+    }
+}

@@ -1,94 +1,134 @@
 .team {
-    padding: 29px 20px 0;
+  padding: 29px 20px 49px;
+  border-bottom: 1px solid $border;
 
+  @media(min-width: $tablet) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media(min-width: $desktop) {
+    width: 1220px;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
 }
 
 .team__title {
-    margin: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 92px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 51px;
+
+  @media(min-width: $tablet) {
     font-weight: 300;
-    font-size: 80px;
-    line-height: 92px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 0 51px;
+    font-size: 150px;
+    line-height: 173px;
+    margin: 0 0 60px;
+  }
+
+  @media(min-width: $desktop) {
+    font-size: 90px;
+    line-height: 100px;
+  }
 }
 
 .team__list {
-    font-family: $gilroy-s;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 37px;
-    letter-spacing: 0%;
-    list-style: none;
+  margin: 0 0 59px;
+  padding: 0;
+  font-family: $gilroy-s;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  list-style: none;
+
+  @media(min-width: $tablet) {
+    margin: 0 0 12px;
+  }
+
+  @media(min-width: $desktop) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px
+  }
+
+}
+
+.team__item:not(:last-child) {
+  margin-bottom: 42px;
+}
+
+.team__pair {
+  @media(min-width: $tablet) {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 19px;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+  }
 
+  @media(min-width: $desktop) {
+    gap: 30px
+  }
 }
 
-.team__position {
-    font-family: $gilroy-r;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0%;
+.team__pair:not(:last-child) {
+  margin-bottom: 71px;
 
+  @media(min-width: $tablet) {
+    margin-bottom: 42px;
+  }
+
+  @media(min-width: $desktop) {
+    margin-bottom: 0;
+  }
 }
 
-.team__item {}
 
-.network__list {}
+.team__item {
+  @media(min-width: $tablet) {
+    width: 446px;
+  }
 
-.network__link-- {
-    width: 50px;
-    height: 50px;
-    display: block;
-    border-radius: 50%;
-
-    &--fb {
-        background-image: url("../images/fb-icon.svg");
-    }
-
-
-    &--tw {
-        background-image: url("../images/tw-icon.svg");
-    }
-
-    &--in {
-        background-image: url("../images/in-icon.svg");
-    }
-
-    &--dr {
-        background-image: url("../images/dr-icon.svg");
-    }
-
+  @media(min-width: $desktop) {
+    width: 100%;
+  }
 }
 
 .team__person {
-    margin: 0;
-    padding: 0;
-    font-family: $gilroy-s;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 37px;
-    text-align: center;
-    text-transform: uppercase;
+  margin: 0 0 3px;
+  padding: 0;
+  font-family: $gilroy-s;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media(min-width: $tablet) {
+    text-align: left;
+  }
 
 }
 
-
 .team__position {
-    margin: 0 0 19px;
-    padding: 0;
-    font-family: $gilroy-r;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
+  margin: 0 0 16px;
+  padding: 0;
+  font-family: $gilroy-r;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
 
+  @media(min-width: $tablet) {
+    text-align: left;
+  }
 }
 
 .team__photo {
-    display: block;
-    width: 100%;
-
+  display: block;
+  width: 100%;
+  margin-bottom: 13px;
 }

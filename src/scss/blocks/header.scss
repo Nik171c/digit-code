@@ -1,9 +1,16 @@
 .header {
+
+}
+.header__container{
   position: relative;
   padding-top: 70px;
 
   @media (min-width: $tablet) {
     padding-top: 120px;
+  }
+  @media (min-width: $desktop) {
+    width: 1000px;
+    margin: 0 auto;
   }
 }
 

@@ -1,14 +1,21 @@
 .selected {
     padding-top: 30px;
     position: relative;
-    padding-bottom: 20px;
-    border-bottom: 2px solid $dark-color;
+    padding-bottom: 28px;
+    border-bottom: 2px solid $border;
 
     @media(min-width: $tablet) {
         padding-top: 26px;
         padding-bottom: 30px;
     }
+    @media(min-width: $desktop) {
+        width: 1220px;
+        margin: 0 auto;
+        padding-top: 80px;
+        padding-bottom: 83px;
+    }
 }
+
 
 .selected__title {
     margin: 0 0 30px;
@@ -34,6 +41,12 @@
         line-height: 172px;
         letter-spacing: 0.04em;
         text-align: center;
+        margin: 0 0 36px;
+    }
+
+    @media(min-width: $desktop) {
+        font-size: 90px;
+        line-height: 100px;
     }
 }
 
@@ -43,7 +56,11 @@
     @media(min-width: $tablet) {
         margin-bottom: 68px;
     }
-
+    @media(min-width: $desktop) {
+       display: grid;
+       grid-template-columns: 1fr;
+       gap: 28px;
+    }
 }
 
 .selected__link-container {

@@ -6,6 +6,11 @@
     padding-top: 39px;
     padding-bottom: 38px;
   }
+
+  @media (min-width: $desktop) {
+    padding: 0;
+    margin-bottom: 56px;
+  }
 }
 
 .clients__list {
@@ -21,6 +26,16 @@
     margin: 0 auto;
     gap: 20px 22px;
     max-width: 891px;
+  }
+
+  @media (min-width: $desktop) {
+    width: 1220px;
+    padding: 42px 40px 42px;
+    box-sizing: border-box;
+    border-top: 1px solid $border;
+    border-bottom: 1px solid $border;
+    max-width: unset;
+    gap: 20px 31px;
   }
 }
 
@@ -39,6 +54,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media(min-width: $desktop) {
+    padding: 0 18px;
+    height: 51px;
+  }
+}
+
+.clients__link img {
+  @media(min-width: $desktop) {
+    display: block;
+    height: 25px;
   }
 }
 
